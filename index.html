@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="images/user.jpg" type="image/x-icon">
+    <script defer src="main.js"></script>
 </head>
 
 <body>
@@ -57,14 +58,6 @@
         </nav>
     </footer>
 
-    <script>var map = L.map('map').setView([29.71, -8.96], 11);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
-        var marker = L.marker([29.71, -8.96]).addTo(map);
-        marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-    </script>
 </body>
 
 </html>
