@@ -244,7 +244,7 @@ for (let i = 0; i < STOPS.length; i++) {
 
 // auf Änderungen beim Pulldown reagieren
 document.querySelector("#pulldown select").onchange = function (evt) {
-    let url = `https://${evt.target.value}.github.io/nz`;
+    let url = `https://${evt.target.value}.github.io/top`;
     // console.log(url);
     // console.log(evt.target.value);
     window.location = url;
